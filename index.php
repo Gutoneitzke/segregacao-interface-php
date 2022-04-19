@@ -4,7 +4,7 @@
       public function voar();
   }
 
-  interface AbelharQuePicam extends Abelha
+  interface AbelhasQuePicam extends Abelha
   {
       public function picar();
   }
@@ -22,7 +22,7 @@
       }
   }
 
-  class Vespa implements AbelharQuePicam
+  class Vespa implements AbelhasQuePicam
   {
   	  function __construct()
       {
